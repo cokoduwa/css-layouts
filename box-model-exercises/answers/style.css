@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: solid 1px #ccc;
+    width: 350px;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p, .card span, .card h2 {
+    margin: 15px;
+}

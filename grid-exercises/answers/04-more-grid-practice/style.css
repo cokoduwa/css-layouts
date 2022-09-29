@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: solid 1px #CCC;
+    display: grid;
+    grid-template-columns: auto 120px;
+    align-items: center;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 1.3em;
+    margin: 10px;
+}
+
+.card p, .card span {
+    line-height: 1.5em;
+    color: #777;
+    font-size: 0.9em;
+    margin: 10px;
+}
