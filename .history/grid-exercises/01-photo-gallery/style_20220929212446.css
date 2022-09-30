@@ -27,13 +27,6 @@ main {
   
 }
 
-/* media can be use to make the layout change for different screen sizes */
-@media screen and (max-width: 800px) {
-  main {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 .photo {
     padding: 8px;
     border: 4px solid tomato;

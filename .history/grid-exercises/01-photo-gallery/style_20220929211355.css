@@ -21,17 +21,6 @@ body {
 main {
     /* Your code here... */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 20px;
-  
-}
-
-/* media can be use to make the layout change for different screen sizes */
-@media screen and (max-width: 800px) {
-  main {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .photo {
