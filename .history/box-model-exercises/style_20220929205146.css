@@ -4,15 +4,11 @@ body {
 
 .card {
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid;
     width: 300px;
-    background-color: aliceblue;
+    display: flex;
 }
 
 img {
     width: 100%;
-}
-
-div {
-    padding: 0 10px 10px;
 }
