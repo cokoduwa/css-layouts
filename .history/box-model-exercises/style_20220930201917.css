@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color: aliceblue;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    padding: 0 10px 10px;
+}

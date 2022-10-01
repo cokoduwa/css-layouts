@@ -21,27 +21,12 @@
   grid-row-start: 1;
 }
 
-.navigation {
-  grid-column-start: 2;
-}
-
-.main {
-  grid-column-start: 2;
-}
-
 .sidebar {
   grid-column-start: 1;
   grid-row-start: 2;
   grid-row-end: 4;
 }
 
-.ads {
-  grid-column-start: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
 .footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-start: 2;
 }

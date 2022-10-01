@@ -21,24 +21,14 @@
   grid-row-start: 1;
 }
 
-.navigation {
-  grid-column-start: 2;
-}
-
-.main {
-  grid-column-start: 2;
-}
-
 .sidebar {
   grid-column-start: 1;
   grid-row-start: 2;
   grid-row-end: 4;
 }
 
-.ads {
-  grid-column-start: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
+.navigation {
+  grid-column-start: -2;
 }
 
 .footer {
