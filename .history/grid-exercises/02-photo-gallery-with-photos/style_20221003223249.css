@@ -22,23 +22,13 @@ body {
     margin: 10px;
 }
 
-header {
-    font-size: 30px;
-    font-weight: 700;
-    margin: 20px;
-}
-
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
-    padding: 0 150px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 button {
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
+    padding: 20px;
 }

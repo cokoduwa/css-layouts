@@ -5,14 +5,12 @@ body * {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F4F4F4;
-    text-align: center;
 }
 
 
 .card {
     border: solid 1px #EEE;
     min-height: 250px;
-    background-color: #ffffff;
 }
 
 .card img {
@@ -22,23 +20,8 @@ body {
     margin: 10px;
 }
 
-header {
-    font-size: 30px;
-    font-weight: 700;
-    margin: 20px;
-}
-
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
-    padding: 0 150px;
-}
-
-button {
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
+    column-gap: 20px;
 }
