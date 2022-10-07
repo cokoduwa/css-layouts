@@ -2,16 +2,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* section, section * {
+section, section * {
     border: solid 1px black;
-} */
+}
 
 .card {
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 10px;
     border: solid 1px #ccc;
-    column-gap: 20px;
 }
 
 main {
@@ -19,8 +18,4 @@ main {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
     column-gap: 20px;
-}
-
-p, span {
-    color: #777;
 }
